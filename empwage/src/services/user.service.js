@@ -1,11 +1,21 @@
 import User from '../models/user.model';
+import bcrypt from 'bcrypt'
 
 
-//get all users
 export const registerUser = async (req,res) => {
+  let userData = await User.find({email:req.email});
+  
+  if(!userData.length){
 
-  const data = await User.find();
-  return data;
+    const passwordHash = await bcrypt.hash(req.password, 10)
+    let newUser = new User({
+        firstname: req.firstname,
+        lastname: req.lastname,
+        email: req.email,
+        password: passwordHash
+    })
+    return await newUser.save()
+  } 
 };
 
 

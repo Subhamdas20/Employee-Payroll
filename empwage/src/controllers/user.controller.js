@@ -7,18 +7,31 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
- export const registerUser = async (req, res, next) => {
+export const registerUser = async (req, res, next) => {
   try {
-    const data = await UserService.registerUser(req,res);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: 'All users fetched successfully'
-    });
+
+    const data = await UserService.registerUser(req.body, res);
+    console.log(data);
+    if (data) {
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: ' User registered successfully'
+      });
+    }
+    else {
+      res.status(HttpStatus.FORBIDDEN).json({
+        code: HttpStatus.FORBIDDEN,
+        data: "",
+        message: ' Email already registered '
+      });
+    }
   } catch (error) {
     next(error);
   }
+
 };
+
 
 /**
  * Controller to get all users available
