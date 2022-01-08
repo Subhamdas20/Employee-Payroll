@@ -22,8 +22,8 @@ export const registerUser = async (req, res) => {
 
 
 export const loginUser = async (req, res) => {
-  let userData = await User.findOne({ email: req.email} );
-  console.log(userData.password);
+  let userData = await User.findOne({ email: req.email });
+  
   if (userData) {
     let passwordVerify = await bcrypt.compare(req.password, userData.password)
     if (passwordVerify) {
@@ -37,11 +37,26 @@ export const loginUser = async (req, res) => {
             lastname: userData.lastname,
             email: userData.email,
             createdAt: userData.createdAt,
+            success: true,
             token: token
           }
         )
       })
     }
+    else {
+      return new Promise((resolve, reject) => {
+        resolve({
+          success: false,
+        })
+      })
+    }
+  }
+  else {
+    return new Promise((resolve, reject) => {
+      resolve({
+        success: false,
+      })
+    })
   }
 }
 

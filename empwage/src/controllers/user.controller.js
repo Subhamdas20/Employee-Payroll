@@ -38,11 +38,11 @@ export const registerUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const loginUser = async (req, res, next) => {
+export const loginUser = async (req, res, next) => {
   try {
 
     const data = await UserService.loginUser(req.body, res);
-    if (data) {
+    if (data.success == true) {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -53,7 +53,7 @@ export const registerUser = async (req, res, next) => {
       res.status(HttpStatus.FORBIDDEN).json({
         code: HttpStatus.FORBIDDEN,
         data: "",
-        message: ' User Login Not Successful'
+        message: ' Invalid Credentials'
       });
     }
   } catch (error) {
