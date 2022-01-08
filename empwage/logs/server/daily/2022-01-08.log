@@ -220,3 +220,11 @@ info: Connected to the database. {"timestamp":"2022-01-08T17:20:47.782Z"}
 info: Server started at http://localhost:3000 {"timestamp":"2022-01-08T17:21:09.097Z"}
 info: Server started at http://localhost:3000 {"timestamp":"2022-01-08T17:21:12.739Z"}
 info: Connected to the database. {"timestamp":"2022-01-08T17:21:13.339Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-08T17:21:34.276Z"}
+info: Connected to the database. {"timestamp":"2022-01-08T17:21:35.033Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-08T17:25:50.155Z"}
+info: Connected to the database. {"timestamp":"2022-01-08T17:25:51.244Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-08T17:26:01.613Z"}
+info: Connected to the database. {"timestamp":"2022-01-08T17:26:03.304Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-08T17:26:11.032Z"}
+info: Connected to the database. {"timestamp":"2022-01-08T17:26:14.908Z"}
