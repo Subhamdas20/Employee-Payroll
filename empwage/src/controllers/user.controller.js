@@ -38,11 +38,10 @@ export const registerUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const LoginUser = async (req, res, next) => {
+ export const loginUser = async (req, res, next) => {
   try {
 
-    const data = await UserService.LoginUser(req.body, res);
-    
+    const data = await UserService.loginUser(req.body, res);
     if (data) {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,

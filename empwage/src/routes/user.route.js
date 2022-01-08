@@ -9,18 +9,8 @@ const router = express.Router();
 router.post('/register', userController.registerUser);
 
 //route to get all users
-router.get('/login', userController.getAllUsers);
+router.get('/login', userController.loginUser);
 
-//route to create a new user
-router.post('', newUserValidator, userController.newUser);
 
-//route to get a single user by their user id
-router.get('/:_id', userAuth, userController.getUser);
-
-//route to update a single user by their user id
-router.put('/:_id', userController.updateUser);
-
-//route to delete a single user by their user id
-router.delete('/:_id', userController.deleteUser);
 
 export default router;
