@@ -53,7 +53,7 @@ export const registerUser = async (req, res, next) => {
       res.status(HttpStatus.UNAUTHORIZED).json({
         code: HttpStatus.UNAUTHORIZED,
         data: "",
-        message: ' Email already registered '
+        message: 'Login Failed '
       });
     }
   } catch (error) {
