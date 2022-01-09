@@ -18,3 +18,7 @@ export const getEmployee = async (req, res) => {
     let employeeData = await Emp.find({ admin_id: req.data.id });
     return employeeData;
 };
+export const deleteEmployee = async (req, res) => {
+    let employeeData = await Emp.deleteOne({ admin_id: req.data.id ,_id: req.id});
+    return employeeData;
+};
