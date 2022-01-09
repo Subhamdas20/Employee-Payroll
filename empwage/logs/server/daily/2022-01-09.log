@@ -147,3 +147,5 @@ info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T05:25:14.
 info: Connected to the database. {"timestamp":"2022-01-09T05:25:15.801Z"}
 info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T05:25:18.532Z"}
 info: Connected to the database. {"timestamp":"2022-01-09T05:25:19.354Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T05:36:54.269Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T05:36:54.953Z"}

@@ -36,7 +36,14 @@ export const addEmployee = async (req, res, next) => {
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
-          message: ' Employee added successfully'
+          message: ' Employee records found'
+        });
+      }
+      else {
+        res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.FORBIDDEN,
+          data: "",
+          message: ' Employee details not found '
         });
       }
     } catch (error) {
