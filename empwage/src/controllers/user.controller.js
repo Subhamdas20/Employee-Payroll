@@ -11,7 +11,6 @@ export const registerUser = async (req, res, next) => {
   try {
 
     const data = await UserService.registerUser(req.body, res);
-    console.log(data);
     if (data) {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,

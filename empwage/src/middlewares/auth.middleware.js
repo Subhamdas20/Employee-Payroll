@@ -9,7 +9,7 @@ import jwt from 'jsonwebtoken';
  * @param {Object} res
  * @param {Function} next
  */
-export const userAuth = async (req, res, next) => {
+export const empAuth = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization');
     if (!bearerToken)
@@ -17,13 +17,19 @@ export const userAuth = async (req, res, next) => {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
-    // bearerToken = bearerToken.split(' ')[1];
 
-    const  user  = await jwt.verify(bearerToken, process.env.TOKEN_SECRET);
-    res.data = user;
-    res.locals.token = bearerToken;
-    next();
-  } catch (error) {
-    next(error);
+    const user = await jwt.verify(bearerToken, process.env.TOKEN_SECRET, ((err, decoder) => {
+      if (err) {
+        return res.status(HttpStatus.UNAUTHORIZED).send({ message: "UNAUTHORIZED" })
+      }
+      else {
+        req.body['data'] = decoder;
+        next();
+      }
+    }))
+   
   }
-};
+  catch (error) {
+      next(error);
+  }
+}

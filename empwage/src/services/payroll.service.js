@@ -8,7 +8,9 @@ export const addEmployee = async (req, res) => {
         department: req.department,
         salary: req.salary,
         startdate: req.startdate,
-        notes: req.notes
+        notes: req.notes,
+        admin_id:req.data.id,
+        adminemail:req.data.email
     })
     return await newEmp.save()
 };
