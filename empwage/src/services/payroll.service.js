@@ -9,8 +9,8 @@ export const addEmployee = async (req, res) => {
         salary: req.salary,
         startdate: req.startdate,
         notes: req.notes,
-        admin_id:req.data.id,
-        adminemail:req.data.email
+        admin_id: req.data.id,
+        adminemail: req.data.email
     })
     return await newEmp.save()
 };
@@ -19,6 +19,26 @@ export const getEmployee = async (req, res) => {
     return employeeData;
 };
 export const deleteEmployee = async (req, res) => {
-    let employeeData = await Emp.deleteOne({admin_id: req.data.id ,_id: req.id});
+    let employeeData = await Emp.deleteOne({ admin_id: req.data.id, _id: req.id });
     return employeeData;
+};
+
+export const updateEmployee = async (req, res) => {
+
+    let employeeData = await Emp.findOne({ admin_id: req.data.id, _id: req.id });
+   console.log(employeeData);
+    if (employeeData) {
+        let empModel = {
+            firstname: req.firstname ? req.firstname : employeeData.firstname,
+            lastname: req.lastname ? req.lastname : employeeData.lastname,
+            gender: req.gender ? req.gender : employeeData.gender,
+            department: req.department ? req.department : employeeData.department,
+            salary: req.salary ? req.salary : employeeData.salary,
+            startdate: req.startdate ? req.startdate : employeeData.startdate,
+            notes: req.notes ? req.notes : employeeData.notes,
+        }
+       return Emp.updateOne({ admin_id: req.data.id, _id: req.id }, empModel)
+    }
+    else { return employeeData
+    }
 };
