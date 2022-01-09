@@ -8,7 +8,6 @@ const router = express.Router();
 
 router.post('/addEmployee', empController.addEmployee);
 
-//route to get all users
 router.get('/getEmployee', empController.addEmployee);
 
 
