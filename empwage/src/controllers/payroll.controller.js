@@ -41,7 +41,7 @@ export const addEmployee = async (req, res, next) => {
       }
       else {
         res.status(HttpStatus.NOT_FOUND).json({
-          code: HttpStatus.FORBIDDEN,
+          code: HttpStatus.NOT_FOUND,
           data: "",
           message: ' Employee details not found '
         });
@@ -62,7 +62,7 @@ export const addEmployee = async (req, res, next) => {
  export const deleteEmployee = async (req, res, next) => {
     try {
       const data = await EmployeeService.deleteEmployee(req.body, res);
-      if (data.length) {
+      if (data.deletedCount) {
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
@@ -71,7 +71,7 @@ export const addEmployee = async (req, res, next) => {
       }
       else {
         res.status(HttpStatus.NOT_FOUND).json({
-          code: HttpStatus.FORBIDDEN,
+          code: HttpStatus.NOT_FOUND,
           data: "",
           message: ' Employee details not found '
         });
