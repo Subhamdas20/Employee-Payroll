@@ -79,5 +79,33 @@ export const addEmployee = async (req, res, next) => {
     } catch (error) {
       next(error);
     }
-  
+  };
+
+    
+/**
+ * Controller to update Employees
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const updateEmployee = async (req, res, next) => {
+    try {
+      const data = await EmployeeService.updateEmployee(req.body, res);
+      if (data.deletedCount) {
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: ' Employee records Deleted'
+        });
+      }
+      else {
+        res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.NOT_FOUND,
+          data: "",
+          message: ' Employee details not found '
+        });
+      }
+    } catch (error) {
+      next(error);
+    }
   };

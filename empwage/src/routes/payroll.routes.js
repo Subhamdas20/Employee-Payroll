@@ -6,9 +6,8 @@ import  {empAuth}  from '../middlewares/auth.middleware';
 const router = express.Router();
 
 router.post('/addEmployee',empAuth, empController.addEmployee);
-
 router.get('/getEmployee',empAuth, empController.getEmployee);
 router.delete('/deleteEmployee',empAuth, empController.deleteEmployee);
-
+router.delete('/updateEmployee',empAuth, empController.updateEmployee);
 
 export default router;
