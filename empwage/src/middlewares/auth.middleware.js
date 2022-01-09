@@ -27,7 +27,6 @@ export const empAuth = async (req, res, next) => {
         next();
       }
     }))
-   
   }
   catch (error) {
       next(error);

@@ -24,9 +24,7 @@ export const deleteEmployee = async (req, res) => {
 };
 
 export const updateEmployee = async (req, res) => {
-
     let employeeData = await Emp.findOne({ admin_id: req.data.id, _id: req.id });
-   console.log(employeeData);
     if (employeeData) {
         let empModel = {
             firstname: req.firstname ? req.firstname : employeeData.firstname,
@@ -39,6 +37,7 @@ export const updateEmployee = async (req, res) => {
         }
        return Emp.updateOne({ admin_id: req.data.id, _id: req.id }, empModel)
     }
-    else { return employeeData
+    else {
+         return employeeData
     }
 };

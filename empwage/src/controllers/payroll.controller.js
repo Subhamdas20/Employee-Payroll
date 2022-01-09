@@ -32,7 +32,7 @@ export const addEmployee = async (req, res, next) => {
  export const getEmployee = async (req, res, next) => {
     try {
       const data = await EmployeeService.getEmployee(req.body, res);
-      if (data) {
+      if (data.length) {
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
@@ -69,7 +69,7 @@ export const addEmployee = async (req, res, next) => {
           message: ' Employee records Deleted'
         });
       }
-      else {
+      else if(!data){
         res.status(HttpStatus.NOT_FOUND).json({
           code: HttpStatus.NOT_FOUND,
           data: "",

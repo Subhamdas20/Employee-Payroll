@@ -190,3 +190,97 @@ info: ::ffff:127.0.0.1 - - [09/Jan/2022:08:52:04 +0000] "PUT /payroll/updateEmpl
 
 info: ::ffff:127.0.0.1 - - [09/Jan/2022:09:01:37 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:02:16 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:02:31 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:03:37 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:03:39 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:04:33 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:06:45 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:06:52 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:09:10 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:09:25 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:14:02 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 200 348 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:35:41 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:35:51 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:37:35 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:37:43 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:38:09 +0000] "GET /payroll/getEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:38:31 +0000] "GET /payroll/getEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:39:06 +0000] "GET /payroll/getEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:39:30 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 1932 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:40:16 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:41:05 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 200 345 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:41:23 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:41:37 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:42:03 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:43:54 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 749 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:14:46:06 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 150 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:06:32 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 401 26 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:54:09 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:54:23 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:54:24 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:55:25 +0000] "GET /users/login HTTP/1.1" 200 442 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:55:37 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:56:37 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:56:38 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:56:38 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:56:59 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:57:01 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:57:02 +0000] "POST /users/registerUser HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:57:59 +0000] "POST /users/register HTTP/1.1" 200 323 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:58:09 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:58:19 +0000] "POST /users/register HTTP/1.1" 500 90 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:58:46 +0000] "POST /users/register HTTP/1.1" 500 89 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:58:46 +0000] "POST /users/register HTTP/1.1" 500 89 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:16:59:14 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:17:07:27 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:17:08:07 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:17:08:50 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [09/Jan/2022:17:09:27 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "Thunder Client (https://www.thunderclient.io)"
+

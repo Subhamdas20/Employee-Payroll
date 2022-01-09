@@ -5,9 +5,7 @@ import * as jwt from 'jsonwebtoken';
 
 export const registerUser = async (req, res) => {
   let userData = await User.find({ email: req.email });
-
   if (!userData.length) {
-
     const passwordHash = await bcrypt.hash(req.password, 10)
     let newUser = new User({
       firstname: req.firstname,
@@ -19,11 +17,8 @@ export const registerUser = async (req, res) => {
   }
 };
 
-
-
 export const loginUser = async (req, res) => {
   let userData = await User.findOne({ email: req.email });
-  
   if (userData) {
     let passwordVerify = await bcrypt.compare(req.password, userData.password)
     if (passwordVerify) {

@@ -3,11 +3,9 @@ import logger from './logger';
 
 const database = async () => {
   try {
-  
     const DATABASE = process.env.DATABASE;
-
     await mongoose.connect(DATABASE, {
-      useFindAndModify: false,
+      useFindAndModify: true,
       useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true

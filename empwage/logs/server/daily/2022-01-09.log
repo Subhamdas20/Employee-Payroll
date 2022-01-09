@@ -361,3 +361,275 @@ info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T08:52:42.
 info: Connected to the database. {"timestamp":"2022-01-09T08:52:42.483Z"}
 info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T09:00:42.400Z"}
 info: Connected to the database. {"timestamp":"2022-01-09T09:00:43.072Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T09:19:21.319Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T09:19:21.958Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:03:24.312Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:03:24.933Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:05:31.323Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:05:32.093Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:06:40.394Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:06:41.256Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:08:22.830Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:08:28.862Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:08:45.001Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:08:48.168Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:08:48.836Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:08:52.735Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:08:54.335Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:09:41.693Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:09:42.431Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:13:04.391Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:13:05.200Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:14:30.681Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:14:31.438Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:14:45.495Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:14:47.814Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:14:50.745Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:14:51.305Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:14:58.692Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:14:59.276Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:26:56.145Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:26:57.144Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:27:00.556Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:27:01.252Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:35:27.063Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:35:27.950Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:36:55.493Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:36:56.452Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:38:06.743Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:38:07.698Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:41:58.034Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:41:58.641Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:42:46.172Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:42:46.711Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:43:49.213Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:43:49.736Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:44:01.163Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:44:01.487Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:44:39.502Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:44:39.938Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:45:52.597Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:45:53.144Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:46:04.881Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:46:05.397Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /payroll/updateEmployee 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T14:46:06.251Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:49:31.665Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:49:32.327Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:58:31.184Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:58:33.876Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:58:37.167Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:58:37.491Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T14:58:58.630Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:58:59.095Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:12:26.689Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:12:27.637Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:12:44.791Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:12:46.486Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:13:29.803Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:13:32.221Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:13:32.676Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:13:36.487Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:13:37.033Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:15:21.375Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:15:22.021Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:15:51.736Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:15:52.446Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:16:10.813Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:16:11.570Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:50:22.123Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:50:22.796Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:50:32.556Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:50:33.218Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:50:35.530Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:50:36.285Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:50:38.612Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:50:39.083Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:51:18.420Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:51:19.024Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:51:28.522Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:51:30.110Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:51:44.109Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:51:44.549Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:51:56.439Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:52:06.874Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:52:07.409Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:52:27.065Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:52:28.533Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:52:43.391Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:52:44.092Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:53:40.055Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:53:40.732Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:53:50.707Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:53:51.333Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:55:02.362Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:55:03.015Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:55:51.544Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:55:52.202Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:56:05.392Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:56:05.916Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:56:57.791Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:56:58.221Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T16:57:50.604Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:57:51.113Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T16:58:09.767Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" length must be at least 2 characters long
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T16:58:19.135Z"}
+error: 
+    status - 500 
+    message - Error: "lastname" length must be at least 2 characters long
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T16:58:46.756Z"}
+error: 
+    status - 500 
+    message - Error: "lastname" length must be at least 2 characters long
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T16:58:46.791Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is not allowed to be empty
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T16:59:14.993Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:07:23.833Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:07:25.083Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is not allowed to be empty
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T17:07:27.388Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:07:40.263Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:07:40.679Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:07:59.803Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:08:00.288Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:08:04.819Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:08:05.617Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is not allowed to be empty
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T17:08:07.046Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:08:34.712Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:08:35.293Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:08:45.691Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:08:46.111Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:08:50.395Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is not allowed to be empty
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T17:08:50.854Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:08:50.876Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:09:19.990Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:09:20.389Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is not allowed to be empty
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T17:09:27.338Z"}
