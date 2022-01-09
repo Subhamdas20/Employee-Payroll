@@ -224,3 +224,5 @@ info: ::ffff:127.0.0.1 - - [08/Jan/2022:18:37:42 +0000] "GET /users/login HTTP/1
 
 info: ::ffff:127.0.0.1 - - [08/Jan/2022:18:40:05 +0000] "GET /users/login HTTP/1.1" 500 894 "-" "Thunder Client (https://www.thunderclient.io)"
 
+info: ::ffff:127.0.0.1 - - [08/Jan/2022:18:41:44 +0000] "GET /users/login HTTP/1.1" 403 55 "-" "Thunder Client (https://www.thunderclient.io)"
+
