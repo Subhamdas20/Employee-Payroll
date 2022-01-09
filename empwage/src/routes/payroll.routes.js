@@ -8,5 +8,7 @@ const router = express.Router();
 router.post('/addEmployee',empAuth, empController.addEmployee);
 
 router.get('/getEmployee',empAuth, empController.getEmployee);
+router.delete('/deleteEmployee',empAuth, empController.deleteEmployee);
+
 
 export default router;

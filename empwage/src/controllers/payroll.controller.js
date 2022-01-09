@@ -32,11 +32,41 @@ export const addEmployee = async (req, res, next) => {
  export const getEmployee = async (req, res, next) => {
     try {
       const data = await EmployeeService.getEmployee(req.body, res);
-      if (data) {
+      if (data.length) {
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
           message: ' Employee records found'
+        });
+      }
+      else {
+        res.status(HttpStatus.NOT_FOUND).json({
+          code: HttpStatus.FORBIDDEN,
+          data: "",
+          message: ' Employee details not found '
+        });
+      }
+    } catch (error) {
+      next(error);
+    }
+  
+  };
+
+  
+/**
+ * Controller to delete Employees
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const deleteEmployee = async (req, res, next) => {
+    try {
+      const data = await EmployeeService.deleteEmployee(req.body, res);
+      if (data.length) {
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: ' Employee records Deleted'
         });
       }
       else {
