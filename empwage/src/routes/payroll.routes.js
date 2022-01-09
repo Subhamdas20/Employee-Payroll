@@ -7,6 +7,6 @@ const router = express.Router();
 
 router.post('/addEmployee',empAuth, empController.addEmployee);
 
-router.get('/getEmployee',empAuth, empController.addEmployee);
+router.get('/getEmployee',empAuth, empController.getEmployee);
 
 export default router;
