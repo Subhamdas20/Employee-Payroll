@@ -1,7 +1,7 @@
-import { expect}  from 'chai';
+import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
-import  fs from 'fs';
+import fs from 'fs';
 import app from '../../src/index';
 
 
@@ -14,7 +14,7 @@ describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
-        mongoose.connection.collections[collection].deleteOne(() => {});
+        mongoose.connection.collections[collection].deleteOne(() => { });
       }
     };
 
@@ -32,37 +32,24 @@ describe('User APIs Test', () => {
     done();
   });
 })
-// describe('GET /users', () => {
-//   it('should return empty array', (done) => {
-//     request(app)
-//       .get('/api/v1/users')
-//       .end((err, res) => {
-//         expect(res.statusCode).to.be.equal(200);
-//         expect(res.body.data).to.be.an('array');
 
-//         done();
-//       });
-//   });
-// });
-// });
 describe('registration API', () => {
   it('if valid details sent should save in db', (done) => {
     const userDetails = employeeJSON.UserData1;
     request(app)
       .post('/users/register')
       .send(userDetails)
-      
       .end((err, res) => {
         if (err) {
           done();
         }
         expect(res.statusCode).to.be.equal(200);
+        expect(res.body.message).to.be.equal(' User registered successfully');
         done();
       });
   })
-  it.only('if invalid emailId sent should not save in db', (done) => {
+  it('if invalid emailId sent should not save in db', (done) => {
     const userDetails = employeeJSON.UserData2;
-
     request(app)
       .post('/users/register')
       .send(userDetails)
@@ -71,7 +58,7 @@ describe('registration API', () => {
           done();
         }
         expect(res.statusCode).to.be.equal(500);
-        
+        expect(res.body.message).to.be.equal('\"email\" must be a valid email');
         done();
       });
   })

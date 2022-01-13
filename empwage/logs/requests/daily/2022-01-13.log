@@ -202,3 +202,25 @@ info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:30:41 +0000] "POST /users/register HT
 
 info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:33:01 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:35:21 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:38:57 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:39:31 +0000] "POST /users/register HTTP/1.1" 200 327 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:40:33 +0000] "POST /users/register HTTP/1.1" 200 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:40:33 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:41:35 +0000] "POST /users/register HTTP/1.1" 200 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:41:35 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:42:09 +0000] "POST /users/register HTTP/1.1" 200 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:42:09 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:43:44 +0000] "POST /users/register HTTP/1.1" 200 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:43:44 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
