@@ -11,14 +11,14 @@ import jwt from 'jsonwebtoken';
  */
 export const empAuth = async (req, res, next) => {
   try {
-    let bearerToken = req.header('Authorization');
-    if (!bearerToken)
+    let token = req.header('Authorization');
+    if (!token)
       throw {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
 
-    const user = await jwt.verify(bearerToken, process.env.TOKEN_SECRET, ((err, decoder) => {
+    const user = await jwt.verify(token, process.env.TOKEN_SECRET, ((err, decoder) => {
       if (err) {
         return res.status(HttpStatus.UNAUTHORIZED).send({ message: "UNAUTHORIZED" })
       }

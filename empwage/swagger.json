@@ -1,0 +1,255 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Employee Payroll Backened",
+        "description": "This documentation guides the user through the APIs availabe in the system.",
+        "version": "1.1.0"
+    },
+    "paths": {
+        "/register": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Register a user.",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Register Data",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "firstName",
+                                "lastName",
+                                "email",
+                                "password"
+                            ],
+                            "properties": {
+                                "firstName": {
+                                    "type": "string"
+                                },
+                                "lastName": {
+                                    "type": "string"
+                                },
+                                "email": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "Register a user and get registered user `object` back from the server.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/login": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Login a user.",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Login Data",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "email",
+                                "password"
+                            ],
+                            "properties": {
+                                "email": {
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "Login a user and get registered user `object` back from the server.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/addEmployee": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Add Employee",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "addEmployee Data",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "firstname",
+                                "lastname",
+                                "gender",
+                                "department",
+                                "salary",
+                                "startdate",
+                                "note",
+                                "admin_id",
+                                "adminemail"
+                            ],
+                            "properties": {
+                                "firstname": {
+                                    "type": "String"
+                                },
+                                "lastname": {
+                                    "type": "String"
+                                },
+                                "gender": {
+                                    "type": "String"
+                                },
+                                "department": {
+                                    "type": "String"
+                                },
+                                "salary": {
+                                    "type": "Number"
+                                },
+                                "startdate": {
+                                    "type": "Date"
+                                },
+                                "notes": {
+                                    "type": "String"
+                                },
+                                "admin_id": {
+                                    "type": "String"
+                                },
+                                "adminemail": {
+                                    "type": "String"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "Add a Employee in the server.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/getEmployee": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get a employee",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": " Get Employee `object` back from the server.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/deleteEmployee": {
+            "put": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Delete a Employee data",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "delete Employee Data",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "_id"
+                            ],
+                            "properties": {
+                                "_id": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "in": "header",
+                        "name": "Authorization",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "Delete EmployeeData from server.",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -633,3 +633,79 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-01-09T17:09:27.338Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:09:54.380Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:09:55.131Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:13:13.075Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:13:13.657Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:13:16.091Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:13:16.509Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:13:35.435Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:13:36.363Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at loginValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:25:42)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T17:13:39.782Z"}
+error: 
+    status - 500 
+    message - Error: "password" is not allowed to be empty
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at loginValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:25:42)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T17:13:55.737Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:14:17.031Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:14:17.692Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:14:20.994Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:14:21.444Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:14:25.028Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:14:25.488Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:14:30.217Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:14:36.328Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:14:36.740Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:14:40.457Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:14:41.888Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:15:47.950Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:15:48.479Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).min(...).max(...).required(...).trim(...).minOfSpecialCharacters is not a function
+    at loginValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:23:65)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\index.js:341:12)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\index.js:47:12) 
+    url - /users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-09T17:15:52.511Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:16:11.515Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:16:11.959Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:17:06.513Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:17:07.198Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:22:30.881Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:22:31.436Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2022-01-09T17:24:22.642Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:24:23.236Z"}

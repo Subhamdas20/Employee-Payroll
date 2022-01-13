@@ -18,8 +18,8 @@ export const registerUser = async (req, res, next) => {
       });
     }
     else {
-      res.status(HttpStatus.FORBIDDEN).json({
-        code: HttpStatus.FORBIDDEN,
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
         data: "",
         message: ' Email already registered '
       });
@@ -48,8 +48,8 @@ export const loginUser = async (req, res, next) => {
       });
     }
     else {
-      res.status(HttpStatus.FORBIDDEN).json({
-        code: HttpStatus.FORBIDDEN,
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
         data: "",
         message: ' Invalid Credentials'
       });

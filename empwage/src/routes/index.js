@@ -14,7 +14,6 @@ const routes = () => {
   });
   router.use('/users', userRoute);
   router.use('/payroll',empRoute)
-
   return router;
 };
 

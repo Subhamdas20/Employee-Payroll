@@ -15,6 +15,7 @@ export const registerUser = async (req, res) => {
     })
     return await newUser.save()
   }
+  // else return userData
 };
 
 export const loginUser = async (req, res) => {
