@@ -62,4 +62,46 @@ describe('registration API', () => {
         done();
       });
   })
+  it('if invalid firstName sent should not save in db', (done) => {
+    const userDetails = employeeJSON.UserData3;
+    request(app)
+      .post('/users/register')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(500);
+        expect(res.body.message).to.be.equal('"firstname" is not allowed to be empty');
+        done();
+      });
+  })
+  it('if invalid lastName sent should not save in db', (done) => {
+    const userDetails = employeeJSON.UserData4;
+    request(app)
+      .post('/users/register')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(500);
+        expect(res.body.message).to.be.equal('"lastname" is not allowed to be empty');
+        done();
+      });
+  })
+  it('if invalid password sent should not save in db', (done) => {
+    const userDetails = employeeJSON.UserData5;
+    request(app)
+      .post('/users/register')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(500);
+        expect(res.body.message).to.be.equal('"password" is not allowed to be empty');
+        done();
+      });
+  })
 })

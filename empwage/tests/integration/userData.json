@@ -10,5 +10,23 @@
         "lastname": "kkklll",      
         "email": "subhamDsdvdsz@gmail.",
         "password": "1234"
+    },
+    "UserData3": {
+        "firstname": "",
+        "lastname": "kkklll",      
+        "email": "subhamD@gmail.com",
+        "password": "1234"
+    },
+    "UserData4": {
+        "firstname": "srzgz",
+        "lastname": "",      
+        "email": "subhamD@gmail.com",
+        "password": "1234"
+    },
+    "UserData5": {
+        "firstname": "srzgz",
+        "lastname": "ESFV",      
+        "email": "subhamD@gmail.com",
+        "password": ""
     }
 }

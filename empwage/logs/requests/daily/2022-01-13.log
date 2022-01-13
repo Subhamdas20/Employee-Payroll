@@ -224,3 +224,29 @@ info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:43:44 +0000] "POST /users/register HT
 
 info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:43:44 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:47:30 +0000] "POST /users/register HTTP/1.1" 404 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:47:30 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:47:30 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:48:07 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:48:33 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:48:49 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:49:11 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:50:15 +0000] "POST /users/register HTTP/1.1" 200 330 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:50:15 +0000] "POST /users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:50:15 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:50:15 +0000] "POST /users/register HTTP/1.1" 500 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:50:30 +0000] "POST /users/register HTTP/1.1" 500 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:57:35 +0000] "POST /users/register HTTP/1.1" 500 74 "-" "node-superagent/3.8.3"
+
