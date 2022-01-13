@@ -2485,3 +2485,220 @@ AssertionError: expected 404 to equal 200
     at Server.emit (events.js:375:28)
     at emitCloseNT (net.js:1661:8)
     at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 13 2022 17:26:38 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:46:38)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1395815},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\cfp\\EmployeeWage\\empwage\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000000","tests/**/*.js"],"cwd":"E:\\cfp\\EmployeeWage\\empwage","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18764359,"external":20435124,"heapTotal":160657408,"heapUsed":136626648,"rss":196124672},"pid":24604,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:46:38)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-13T11:56:38.902Z","trace":[{"column":38,"file":"E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js","function":null,"line":46,"method":null,"native":false},{"column":6,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:09:04.122Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:09:06.432Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:09:06.811Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:09:06.836Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:09:06.862Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:09:06.887Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:17:33.339Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:17:33.393Z"}
+error: uncaughtException: expected 500 to equal 404
+AssertionError: expected 500 to equal 404
+    at Test.<anonymous> (E:\cfp\EmployeeWage\empwage\tests\integration\/user.test.js:135:38)
+    at Test.assert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 13 2022 19:47:33 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":404,"message":"expected 500 to equal 404","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 404\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:135:38)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1404270},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\cfp\\EmployeeWage\\empwage\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000000","tests/**/*.js"],"cwd":"E:\\cfp\\EmployeeWage\\empwage","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18288644,"external":19959409,"heapTotal":145342464,"heapUsed":114996512,"rss":178147328},"pid":55268,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 404\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:135:38)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-13T14:17:33.446Z","trace":[{"column":38,"file":"E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js","function":null,"line":135,"method":null,"native":false},{"column":6,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:18:01.562Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:18:01.615Z"}
+error: uncaughtException: expected '"email" is required' to equal ' User Login successfully'
+AssertionError: expected '"email" is required' to equal ' User Login successfully'
+    at Test.<anonymous> (E:\cfp\EmployeeWage\empwage\tests\integration\/user.test.js:136:40)
+    at Test.assert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 13 2022 19:48:01 GMT+0530 (India Standard Time)","error":{"actual":"\"email\" is required","expected":" User Login successfully","message":"expected '\"email\" is required' to equal ' User Login successfully'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected '\"email\" is required' to equal ' User Login successfully'\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:136:40)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1404298},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\cfp\\EmployeeWage\\empwage\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000000","tests/**/*.js"],"cwd":"E:\\cfp\\EmployeeWage\\empwage","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18656280,"external":20327045,"heapTotal":156512256,"heapUsed":133722080,"rss":190820352},"pid":50224,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected '\"email\" is required' to equal ' User Login successfully'\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:136:40)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-13T14:18:01.652Z","trace":[{"column":40,"file":"E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js","function":null,"line":136,"method":null,"native":false},{"column":6,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:18:46.501Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:18:46.529Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:20:38.936Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:20:39.167Z"}
+error: uncaughtException: expected '"email" must be a valid email' to equal '"email" is required'
+AssertionError: expected '"email" must be a valid email' to equal '"email" is required'
+    at Test.<anonymous> (E:\cfp\EmployeeWage\empwage\tests\integration\/user.test.js:135:40)
+    at Test.assert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 13 2022 19:50:39 GMT+0530 (India Standard Time)","error":{"actual":"\"email\" must be a valid email","expected":"\"email\" is required","message":"expected '\"email\" must be a valid email' to equal '\"email\" is required'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected '\"email\" must be a valid email' to equal '\"email\" is required'\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:135:40)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1404456},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\cfp\\EmployeeWage\\empwage\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000000","tests/**/*.js"],"cwd":"E:\\cfp\\EmployeeWage\\empwage","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18750003,"external":20420768,"heapTotal":157233152,"heapUsed":134746520,"rss":192360448},"pid":44924,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected '\"email\" must be a valid email' to equal '\"email\" is required'\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:135:40)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-13T14:20:39.237Z","trace":[{"column":40,"file":"E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js","function":null,"line":135,"method":null,"native":false},{"column":6,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:21:12.149Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:21:12.224Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:22:41.237Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:22:41.277Z"}
+error: uncaughtException: expected '"email" is not allowed to be empty' to equal '"email" must be a valid email'
+AssertionError: expected '"email" is not allowed to be empty' to equal '"email" must be a valid email'
+    at Test.<anonymous> (E:\cfp\EmployeeWage\empwage\tests\integration\/user.test.js:150:40)
+    at Test.assert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\cfp\EmployeeWage\empwage\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Jan 13 2022 19:52:41 GMT+0530 (India Standard Time)","error":{"actual":"\"email\" is not allowed to be empty","expected":"\"email\" must be a valid email","message":"expected '\"email\" is not allowed to be empty' to equal '\"email\" must be a valid email'","name":"AssertionError","operator":"notStrictEqual","showDiff":true,"stack":"AssertionError: expected '\"email\" is not allowed to be empty' to equal '\"email\" must be a valid email'\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:150:40)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1404578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\cfp\\EmployeeWage\\empwage\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000000","tests/**/*.js"],"cwd":"E:\\cfp\\EmployeeWage\\empwage","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18738817,"external":20409582,"heapTotal":156512256,"heapUsed":133929376,"rss":189890560},"pid":51384,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected '\"email\" is not allowed to be empty' to equal '\"email\" must be a valid email'\n    at Test.<anonymous> (E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js:150:40)\n    at Test.assert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-13T14:22:41.312Z","trace":[{"column":40,"file":"E:\\cfp\\EmployeeWage\\empwage\\tests\\integration\\/user.test.js","function":null,"line":150,"method":null,"native":false},{"column":6,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\cfp\\EmployeeWage\\empwage\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:23:28.703Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:23:28.768Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:24:09.794Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:24:11.830Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:25:30.516Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:25:39.524Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:25:43.388Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:25:45.321Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:25:59.169Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:26:03.251Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:26:03.910Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:26:08.201Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:26:12.434Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:26:13.282Z"}
+error: 
+    status - 500 
+    message - Error: "password" is not allowed to be empty
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at loginValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:26:42)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:26:16.972Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:26:31.765Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:26:32.770Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:26:46.466Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:26:50.633Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:26:51.599Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:26:56.104Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:26:57.015Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:27:37.810Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:27:39.460Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:29:56.889Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:29:56.937Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:30:25.845Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:30:27.812Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:30:28.141Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:30:28.152Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:30:28.162Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:30:28.173Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:30:28.352Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:30:28.361Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:30:28.515Z"}

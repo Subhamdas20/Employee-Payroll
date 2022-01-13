@@ -32,5 +32,21 @@
     "loginData1": {     
         "email": "subhamd@gmail.com",
         "password": "1234"
+    },
+    "loginData2": {     
+        "email": "subhamd@gmail",
+        "password": "1234"
+    },
+    "loginData3": {     
+        "email": "",
+        "password": "1234"
+    },
+    "loginData4": {     
+        "email": "subhamd@gmail.com",
+        "password": "12344"
+    },
+    "loginData5": {     
+        "email": "subhamd@gmail.com",
+        "password": ""
     }
 }

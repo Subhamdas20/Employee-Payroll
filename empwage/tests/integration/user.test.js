@@ -34,7 +34,7 @@ describe('User APIs Test', () => {
 })
 
 describe('registration API', () => {
-  it('if valid details sent should save in db', (done) => {
+  it('if valid details recieved should save in db', (done) => {
     const userDetails = employeeJSON.UserData1;
     request(app)
       .post('/users/register')
@@ -48,7 +48,7 @@ describe('registration API', () => {
         done();
       });
   })
-  it('if invalid emailId sent should not save in db', (done) => {
+  it('if invalid emailId recieved should not save in db', (done) => {
     const userDetails = employeeJSON.UserData2;
     request(app)
       .post('/users/register')
@@ -62,7 +62,7 @@ describe('registration API', () => {
         done();
       });
   })
-  it('if invalid firstName sent should not save in db', (done) => {
+  it('if invalid firstName recieved should not save in db', (done) => {
     const userDetails = employeeJSON.UserData3;
     request(app)
       .post('/users/register')
@@ -76,7 +76,7 @@ describe('registration API', () => {
         done();
       });
   })
-  it('if invalid lastName sent should not save in db', (done) => {
+  it('if invalid lastName recieved should not save in db', (done) => {
     const userDetails = employeeJSON.UserData4;
     request(app)
       .post('/users/register')
@@ -90,7 +90,7 @@ describe('registration API', () => {
         done();
       });
   })
-  it('if invalid password sent should not save in db', (done) => {
+  it('if invalid password recieved should not save in db', (done) => {
     const userDetails = employeeJSON.UserData5;
     request(app)
       .post('/users/register')
@@ -107,7 +107,7 @@ describe('registration API', () => {
 })
 
 describe('Login API', () => {
-  it('if valid details sent should login', (done) => {
+  it('if valid details recieved should login', (done) => {
     const userDetails = employeeJSON.loginData1;
     request(app)
       .post('/users/login')
@@ -118,6 +118,65 @@ describe('Login API', () => {
         }
         expect(res.statusCode).to.be.equal(200);
         expect(res.body.message).to.be.equal(' User Login successfully');
+        done();
+      });
+  })
+
+  it('if invalid  mail details recieved should not login', (done) => {
+    const userDetails = employeeJSON.loginData2;
+    request(app)
+      .post('/users/login')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(500);
+        expect(res.body.message).to.be.equal('"email" must be a valid email');
+        done();
+      });
+  })
+
+  it('if mail details not recieved should not login', (done) => {
+    const userDetails = employeeJSON.loginData3;
+    request(app)
+      .post('/users/login')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(500);
+        expect(res.body.message).to.be.equal('"email" is not allowed to be empty');
+        done();
+      });
+  })
+
+  it('if invalid  password recieved should not login', (done) => {
+    const userDetails = employeeJSON.loginData4;
+    request(app)
+      .post('/users/login')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(404);
+        expect(res.body.message).to.be.equal(' Invalid Credentials');
+        done();
+      });
+  })
+  it('if password not recieved should not login', (done) => {
+    const userDetails = employeeJSON.loginData5;
+    request(app)
+      .post('/users/login')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(500);
+        expect(res.body.message).to.be.equal('\"password\" is not allowed to be empty');
         done();
       });
   })
