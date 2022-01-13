@@ -2,7 +2,7 @@
     "UserData1": {
         "firstname": "abhkl",
         "lastname": "kkklll",      
-        "email": "subhamDsdvdsz@gmail.com",
+        "email": "subhamd@gmail.com",
         "password": "1234"
     },
     "UserData2": {
@@ -28,5 +28,9 @@
         "lastname": "ESFV",      
         "email": "subhamD@gmail.com",
         "password": ""
+    },
+    "loginData1": {     
+        "email": "subhamd@gmail.com",
+        "password": "1234"
     }
 }

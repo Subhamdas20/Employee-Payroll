@@ -105,3 +105,20 @@ describe('registration API', () => {
       });
   })
 })
+
+describe('Login API', () => {
+  it('if valid details sent should login', (done) => {
+    const userDetails = employeeJSON.loginData1;
+    request(app)
+      .post('/users/login')
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body.message).to.be.equal(' User Login successfully');
+        done();
+      });
+  })
+})

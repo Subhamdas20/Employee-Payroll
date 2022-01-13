@@ -525,3 +525,170 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-01-13T10:57:35.428Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:01:28.524Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:01:29.216Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:01:29.473Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:01:29.480Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:01:29.492Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:01:29.503Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:04:24.853Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:04:25.398Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:04:49.165Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:04:49.684Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:05:13.870Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:05:14.282Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:05:21.632Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:05:28.443Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:28.480Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:05:58.054Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:05:58.606Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:58.766Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:58.774Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:58.782Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:58.792Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:58.805Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:07:04.729Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:07:05.347Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:49:23.539Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:49:24.363Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:49:24.525Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:49:24.532Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:49:24.541Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:49:24.548Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:49:24.556Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:54:17.292Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:54:17.888Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:54:38.088Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:54:38.608Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:55:11.873Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:55:11.928Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:56:12.358Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:56:12.932Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:56:28.466Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:56:28.926Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T11:56:38.329Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:56:38.832Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:56:38.925Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:56:38.945Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:56:38.952Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:56:38.960Z"}
