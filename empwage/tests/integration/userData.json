@@ -1,52 +1,61 @@
 {
     "UserData1": {
         "firstname": "abhkl",
-        "lastname": "kkklll",      
-        "email": "subhamd@gmail.com",
+        "lastname": "kkklll",
+        "email": "subhamD@gmail.com",
         "password": "1234"
     },
     "UserData2": {
         "firstname": "abhkl",
-        "lastname": "kkklll",      
+        "lastname": "kkklll",
         "email": "subhamDsdvdsz@gmail.",
         "password": "1234"
     },
     "UserData3": {
         "firstname": "",
-        "lastname": "kkklll",      
+        "lastname": "kkklll",
         "email": "subhamD@gmail.com",
         "password": "1234"
     },
     "UserData4": {
         "firstname": "srzgz",
-        "lastname": "",      
+        "lastname": "",
         "email": "subhamD@gmail.com",
         "password": "1234"
     },
     "UserData5": {
         "firstname": "srzgz",
-        "lastname": "ESFV",      
+        "lastname": "ESFV",
         "email": "subhamD@gmail.com",
         "password": ""
     },
-    "loginData1": {     
-        "email": "subhamd@gmail.com",
+    "loginData1": {
+        "email": "subhamD@gmail.com",
         "password": "1234"
     },
-    "loginData2": {     
+    "loginData2": {
         "email": "subhamd@gmail",
         "password": "1234"
     },
-    "loginData3": {     
+    "loginData3": {
         "email": "",
         "password": "1234"
     },
-    "loginData4": {     
+    "loginData4": {
         "email": "subhamd@gmail.com",
         "password": "12344"
     },
-    "loginData5": {     
+    "loginData5": {
         "email": "subhamd@gmail.com",
         "password": ""
+    },
+    "addEmployeeData1": {
+        "firstname": "subham",
+        "lastname": "das",
+        "gender": "male",
+        "department": "finance",
+        "salary": 5587464,
+        "startdate": "2022-01-20",
+        "notes": "testing testing testing"
     }
 }

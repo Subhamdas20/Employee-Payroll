@@ -3,6 +3,7 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 import fs from 'fs';
 import app from '../../src/index';
+import logger from '../../src/config/logger';
 
 
 const rawdata = fs.readFileSync('tests/integration/userData.json');
@@ -177,6 +178,38 @@ describe('Login API', () => {
         }
         expect(res.statusCode).to.be.equal(500);
         expect(res.body.message).to.be.equal('\"password\" is not allowed to be empty');
+        done();
+      });
+  })
+})
+
+describe('addEmployee API', () => {
+  beforeEach((done) => {
+    request(app)
+      .post('/users/login')
+      .send(employeeJSON.loginData1)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        jwToken = res.body.data.token;
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body.message).to.be.equal(' User Login successfully');
+        done();
+      });
+  });
+  it('if valid token details recieved should addEmployee in db', (done) => {
+    const userDetails = employeeJSON.addEmployeeData1;
+    request(app)
+      .post('/payroll/addEmployee')
+      .set({ Authorization: jwToken })
+      .send(userDetails)
+      .end((err, res) => {
+        if (err) {
+          done();
+        }
+        expect(res.statusCode).to.be.equal(200)
+        expect(res.body.message).to.be.equal(' Employee added successfully');
         done();
       });
   })

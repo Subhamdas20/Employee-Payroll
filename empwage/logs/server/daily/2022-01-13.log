@@ -873,3 +873,90 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-01-13T14:30:28.515Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:36:06.893Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:36:07.821Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:36:38.985Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:36:39.849Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:39:46.631Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:39:47.353Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:39:57.962Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:40:01.775Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:40:03.772Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:40:35.046Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:40:35.953Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:40:55.742Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:40:57.576Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:41:30.588Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:42:09.622Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:43:48.821Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:43:49.636Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:44:45.503Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:49:55.203Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:49:55.238Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:52:25.016Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:52:25.055Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:53:14.090Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:53:14.210Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T14:55:49.337Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:55:49.430Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T15:04:34.481Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T15:04:34.522Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T15:11:15.258Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:11:16.213Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T15:14:28.669Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:14:29.694Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T15:17:22.932Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:17:23.784Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:06:54.045Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:06:54.999Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:08:05.958Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:08:09.326Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:13:48.204Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:13:49.837Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:14:08.382Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:14:09.201Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:19:12.134Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:19:14.152Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:21:39.727Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:21:40.763Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:22:43.631Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:22:45.905Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:25:01.451Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:25:07.335Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:25:48.401Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:25:49.068Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:25:54.045Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:25:57.793Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-13T17:26:04.910Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:26:05.765Z"}
+info: [object Object] {"timestamp":"2022-01-13T17:26:05.820Z"}
