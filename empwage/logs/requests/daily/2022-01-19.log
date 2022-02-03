@@ -1,0 +1,14 @@
+info: ::ffff:127.0.0.1 - - [19/Jan/2022:07:05:42 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 401 26 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [19/Jan/2022:07:05:46 +0000] "POST /users/login HTTP/1.1" 200 431 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [19/Jan/2022:07:09:11 +0000] "DELETE /payroll/deleteEmployee HTTP/1.1" 404 63 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [19/Jan/2022:07:11:20 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 200 345 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [19/Jan/2022:07:11:25 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 150 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [19/Jan/2022:07:11:32 +0000] "PUT /payroll/updateEmployee HTTP/1.1" 500 150 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [19/Jan/2022:07:15:02 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 3532 "-" "Thunder Client (https://www.thunderclient.io)"
+

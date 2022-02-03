@@ -1,0 +1,42 @@
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:05:32.784Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:05:33.755Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:07:07.374Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:07:08.341Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:07:56.653Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:07:57.294Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:08:07.252Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:08:12.445Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:08:13.178Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:08:46.634Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:08:47.071Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:08:57.484Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:08:57.918Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:09:07.455Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:09:08.161Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /payroll/updateEmployee 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-19T07:11:25.753Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /payroll/updateEmployee 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-19T07:11:32.971Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:12:28.527Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-19T07:13:05.557Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T07:13:06.126Z"}

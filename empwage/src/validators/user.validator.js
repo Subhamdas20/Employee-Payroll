@@ -1,6 +1,5 @@
 import Joi from '@hapi/joi';
 
-
 export const registerValidator = (req, res, next) => {
   const validateRegister = Joi.object({
     firstname: Joi.string().min(2).required().trim(true),

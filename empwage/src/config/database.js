@@ -6,7 +6,8 @@ const database = async () => {
     const DATABASE =
       process.env.NODE_ENV === 'test'
         ? process.env.DATABASE_TEST
-        : process.env.DATABASE;
+        : 
+        process.env.DATABASE;
         
     await mongoose.connect(DATABASE, {
       useFindAndModify: false,

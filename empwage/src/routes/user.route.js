@@ -5,9 +5,7 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
-
 router.post('/register',validate.registerValidator,userController.registerUser);
-
-router.post('/login', validate.loginValidator,userController.loginUser);
+    router.post('/login', validate.loginValidator,userController.loginUser);
 
 export default router;

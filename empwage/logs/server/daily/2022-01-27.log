@@ -1,0 +1,215 @@
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T04:57:33.417Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T04:57:33.431Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at loginValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:25:42)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T04:59:30.372Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:05:25.146Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:05:25.177Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.281Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.296Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.306Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.321Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.416Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.422Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.439Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.695Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.766Z"}
+error: 
+    status - 500 
+    message - ValidationError: "gender" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.838Z"}
+error: 
+    status - 500 
+    message - ValidationError: "department" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.910Z"}
+error: 
+    status - 500 
+    message - ValidationError: "salary" must be larger than or equal to 1 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:25.979Z"}
+error: 
+    status - 500 
+    message - ValidationError: "startdate" must be in ISO 8601 date format 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:26.049Z"}
+error: 
+    status - 500 
+    message - ValidationError: "notes" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-27T05:05:26.121Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:07:41.378Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:07:41.410Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:07:53.793Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:07:53.814Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:08:13.488Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:08:13.503Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:10:07.392Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:10:07.407Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:10:15.592Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:10:15.606Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" is required
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-27T05:10:46.069Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:11:04.878Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:11:04.903Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:11:11.896Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:11:11.911Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:12:59.075Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:12:59.090Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:13:09.806Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:13:09.822Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:13:15.025Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:13:15.039Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:14:18.163Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:14:18.181Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:15:26.154Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:15:26.181Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:15:31.405Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:15:31.428Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:18:51.492Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:18:51.514Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:19:05.531Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:19:05.547Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /payroll/getEmployee 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-27T05:20:50.474Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:22:23.810Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:22:23.846Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:22:42.126Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:22:42.140Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:22:48.394Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:22:48.407Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:22:51.639Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:22:51.657Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:22:58.368Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:22:58.392Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:23:01.656Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:23:01.675Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:23:15.007Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:23:15.022Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:23:23.017Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:23:23.037Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:23:33.771Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:23:33.786Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:23:43.998Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:23:44.024Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:23:55.300Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:23:55.315Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:23:57.770Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:23:57.784Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:24:01.044Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:24:01.070Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:24:06.707Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:24:06.734Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:24:24.245Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:24:24.271Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:26:12.334Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:26:12.355Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:26:19.973Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:26:19.995Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:26:24.165Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:26:24.184Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:26:41.345Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:26:41.368Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:26:44.696Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:26:44.723Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:26:50.520Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:26:50.535Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T05:26:55.264Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T05:26:55.286Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-27T10:54:38.003Z"}
+info: Connected to the database. {"timestamp":"2022-01-27T10:54:38.018Z"}

@@ -1,0 +1,577 @@
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T04:48:07.800Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T04:48:07.817Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T04:51:31.607Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T04:51:31.627Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T04:52:27.430Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T04:52:27.443Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T04:59:33.875Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T04:59:33.895Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T04:59:40.323Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T04:59:40.338Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T04:59:55.969Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T04:59:55.989Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:00:05.875Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:00:05.905Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:00:18.782Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:00:18.803Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:00:36.871Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:00:36.900Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:01:47.889Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:01:47.906Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:02:19.986Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:02:20.001Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:03:38.530Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:03:38.544Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:03:44.743Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:03:44.756Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:03:55.079Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:03:55.093Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:04:02.735Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:04:02.750Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:04:16.024Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:04:16.051Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:04:39.391Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:04:39.405Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:04:48.933Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:04:48.947Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:04:56.756Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:04:56.770Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:05:05.060Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:05:05.074Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:05:08.000Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:05:08.020Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:05:12.459Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:05:12.472Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:06:05.313Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:06:05.336Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:06:12.304Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:06:12.326Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:06:32.628Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:06:32.642Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:06:49.815Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:06:49.829Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:06:55.638Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:06:55.660Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:07:25.028Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:07:25.043Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:08:07.915Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:08:07.929Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:08:19.356Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:08:19.387Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.478Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.489Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.498Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.509Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.584Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.590Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.620Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.834Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.902Z"}
+error: 
+    status - 500 
+    message - ValidationError: "gender" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:19.968Z"}
+error: 
+    status - 500 
+    message - ValidationError: "department" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:20.032Z"}
+error: 
+    status - 500 
+    message - ValidationError: "salary" must be larger than or equal to 1 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:20.099Z"}
+error: 
+    status - 500 
+    message - ValidationError: "startdate" must be in ISO 8601 date format 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:20.166Z"}
+error: 
+    status - 500 
+    message - ValidationError: "notes" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:08:20.231Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:11:49.911Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:11:49.940Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:11:59.905Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:11:59.933Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.024Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.031Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.041Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.051Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.124Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.132Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.147Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.359Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.427Z"}
+error: 
+    status - 500 
+    message - ValidationError: "gender" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.492Z"}
+error: 
+    status - 500 
+    message - ValidationError: "department" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.557Z"}
+error: 
+    status - 500 
+    message - ValidationError: "salary" must be larger than or equal to 1 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.625Z"}
+error: 
+    status - 500 
+    message - ValidationError: "startdate" must be in ISO 8601 date format 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.692Z"}
+error: 
+    status - 500 
+    message - ValidationError: "notes" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:12:00.759Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:15:39.967Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:15:39.987Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.072Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.080Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.088Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.095Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.172Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.180Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.192Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.409Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.477Z"}
+error: 
+    status - 500 
+    message - ValidationError: "gender" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.545Z"}
+error: 
+    status - 500 
+    message - ValidationError: "department" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.613Z"}
+error: 
+    status - 500 
+    message - ValidationError: "salary" must be larger than or equal to 1 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.682Z"}
+error: 
+    status - 500 
+    message - ValidationError: "startdate" must be in ISO 8601 date format 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.764Z"}
+error: 
+    status - 500 
+    message - ValidationError: "notes" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:15:40.835Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:16:14.002Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:16:14.017Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /payroll/updateEmployee 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:19:14.050Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\cfp\EmployeeWage\empwage\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /payroll/updateEmployee 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:19:18.601Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:22:40.757Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:22:40.781Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:23:14.795Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:23:14.820Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:23:21.306Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:23:21.324Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:24:40.418Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:24:40.440Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" length must be at least 2 characters long
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:24:51.779Z"}
+error: 
+    status - 500 
+    message - Error: "firstname" length must be at least 2 characters long
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T05:25:02.181Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T05:25:18.005Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T05:25:18.030Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T09:20:19.212Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:20:19.245Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.507Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.518Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.528Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.539Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.684Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.692Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.711Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:19.998Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:20.124Z"}
+error: 
+    status - 500 
+    message - ValidationError: "gender" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:20.199Z"}
+error: 
+    status - 500 
+    message - ValidationError: "department" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:20.304Z"}
+error: 
+    status - 500 
+    message - ValidationError: "salary" must be larger than or equal to 1 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:20.392Z"}
+error: 
+    status - 500 
+    message - ValidationError: "startdate" must be in ISO 8601 date format 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:20.481Z"}
+error: 
+    status - 500 
+    message - ValidationError: "notes" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T09:20:20.591Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T09:39:55.898Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T09:39:55.912Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T10:11:06.689Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T10:11:34.274Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:11:34.289Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at registerValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:10:45)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T10:11:40.573Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-25T10:13:40.312Z"}
+info: Connected to the database. {"timestamp":"2022-01-25T10:13:40.327Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email
+    at new exports.ValidationError (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (E:\cfp\EmployeeWage\empwage\node_modules\@hapi\joi\lib\base.js:534:26)
+    at loginValidator (E:\cfp\EmployeeWage\empwage\src\validators\/user.validator.js:25:42)
+    at Layer.handle [as handle_request] (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\cfp\EmployeeWage\empwage\node_modules\express\lib\router\route.js:137:13) 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-25T11:23:18.450Z"}

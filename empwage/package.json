@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "main": "build/index.js",
+ 
+
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js",
     "build": "rimraf build && babel src --out-dir build",
@@ -12,6 +14,7 @@
     "test:coverage": "cross-env NODE_ENV=test nyc --require @babel/register --reporter lcov --reporter text mocha --exit --recursive --timeout=5000 tests/**/*.js",
     "lint": "eslint . --ext .js",
     "lint-fix": "eslint . --ext .js --fix"
+   
   },
   "author": "Tolustar",
   "license": "MIT",
@@ -20,6 +23,7 @@
     "@sendgrid/mail": "^7.2.5",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
+    "dot-env": "0.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",

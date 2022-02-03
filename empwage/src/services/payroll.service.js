@@ -14,16 +14,16 @@ export const addEmployee = async (req, res) => {
     })
     return await newEmp.save()
 };
-export const getEmployee = async (req, res) => {
+export const getEmployee = async (req) => {
     let employeeData = await Emp.find({ admin_id: req.data.id });
     return employeeData;
 };
-export const deleteEmployee = async (req, res) => {
+export const deleteEmployee = async (req) => {
     let employeeData = await Emp.deleteOne({ admin_id: req.data.id, _id: req.id });
     return employeeData;
 };
 
-export const updateEmployee = async (req, res) => {
+export const updateEmployee = async (req) => {
     let employeeData = await Emp.findOne({ admin_id: req.data.id, _id: req.id });
     if (employeeData) {
         let empModel = {
@@ -35,9 +35,9 @@ export const updateEmployee = async (req, res) => {
             startdate: req.startdate ? req.startdate : employeeData.startdate,
             notes: req.notes ? req.notes : employeeData.notes,
         }
-       return Emp.updateOne({ admin_id: req.data.id, _id: req.id }, empModel)
+        return Emp.updateOne({ admin_id: req.data.id, _id: req.id }, empModel)
     }
     else {
-         return employeeData
+        return employeeData
     }
 };

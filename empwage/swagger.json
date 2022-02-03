@@ -6,7 +6,7 @@
         "version": "1.1.0"
     },
     "paths": {
-        "/register": {
+        "/users/register": {
             "post": {
                 "tags": [
                     ""
@@ -20,8 +20,8 @@
                         "schema": {
                             "type": "object",
                             "required": [
-                                "firstName",
-                                "lastName",
+                                "firstname",
+                                "lastname",
                                 "email",
                                 "password"
                             ],
@@ -45,13 +45,13 @@
                 "description": "Register a user and get registered user `object` back from the server.",
                 "produces": "application/json",
                 "responses": {
-                    "200": {
-                        "description": "OK"
+                    "201": {
+                        "description": "Created"
                     }
                 }
             }
         },
-        "/login": {
+        "/users/login": {
             "post": {
                 "tags": [
                     ""
@@ -88,7 +88,7 @@
                 }
             }
         },
-        "/addEmployee": {
+        "/payroll/addEmployee": {
             "post": {
                 "tags": [
                     ""
@@ -108,9 +108,7 @@
                                 "department",
                                 "salary",
                                 "startdate",
-                                "note",
-                                "admin_id",
-                                "adminemail"
+                                "note"
                             ],
                             "properties": {
                                 "firstname": {
@@ -150,10 +148,10 @@
                         "schema": {
                             "type": "object",
                             "required": [
-                                "token"
+                                "Authorization"
                             ],
                             "properties": {
-                                "token": {
+                                "Authorization": {
                                     "type": "string"
                                 }
                             }
@@ -169,7 +167,7 @@
                 }
             }
         },
-        "/getEmployee": {
+        "/payroll/getEmployee": {
             "get": {
                 "tags": [
                     ""
@@ -178,15 +176,15 @@
                 "parameters": [
                     {
                         "in": "header",
-                        "name": "token",
+                        "name": "Authorization",
                         "required": true,
                         "schema": {
                             "type": "object",
                             "required": [
-                                "token"
+                                "Authorization"
                             ],
                             "properties": {
-                                "token": {
+                                "Authorization": {
                                     "type": "string"
                                 }
                             }
@@ -202,7 +200,7 @@
                 }
             }
         },
-        "/deleteEmployee": {
+        "/payroll/deleteEmployee": {
             "put": {
                 "tags": [
                     ""
@@ -232,10 +230,10 @@
                         "schema": {
                             "type": "object",
                             "required": [
-                                "token"
+                                "Authorization"
                             ],
                             "properties": {
-                                "token": {
+                                "Authorization": {
                                     "type": "string"
                                 }
                             }

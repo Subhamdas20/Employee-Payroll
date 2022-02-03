@@ -1,20 +1,47 @@
 import { Schema, model } from 'mongoose';
 
-const userSchema = new Schema(
+const payrollSchema = new Schema(
     {
-        firstname: {type: String},
-        lastname: {type: String},
-        gender: { type: String },
-        department: { type: String },
-        salary: { type: Number },
-        startdate: { type: Date },
-        notes: { type: String },
-        admin_id:{ type: String },
-        adminemail :{ type: String },
+        firstname: {
+            type: String,
+            required: true
+        },
+        lastname: {
+            type: String,
+            required: true
+        },
+        gender: {
+            type: String,
+            required: true
+        },
+        department: {
+            type: String,
+            required: true
+        },
+        salary: {
+            type: Number,
+            required: true
+        },
+        startdate: {
+            type: Date,
+            required: true
+        },
+        notes: {
+            type: String,
+            required: true
+        },
+        admin_id: {
+            type: String,
+            required: true
+        },
+        adminemail: {
+            type: String,
+            required: true
+        },
     },
     {
         timestamps: true
     }
 );
 
-export default model('Employees', userSchema);
+export default model('Employees', payrollSchema);

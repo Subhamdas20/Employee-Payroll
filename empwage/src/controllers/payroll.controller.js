@@ -11,8 +11,8 @@ export const addEmployee = async (req, res, next) => {
   try {
     const data = await EmployeeService.addEmployee(req.body, res);
     if (data) {
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
         data: data,
         message: ' Employee added successfully'
       });
@@ -68,7 +68,7 @@ export const addEmployee = async (req, res, next) => {
           message: ' Employee records Deleted'
         });
       }
-      else if(!data){
+      else if(!data.deletedCount){
         res.status(HttpStatus.NOT_FOUND).json({
           code: HttpStatus.NOT_FOUND,
           data: "",

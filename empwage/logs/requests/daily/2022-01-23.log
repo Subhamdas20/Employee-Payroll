@@ -1,0 +1,12 @@
+info: ::ffff:127.0.0.1 - - [23/Jan/2022:13:26:12 +0000] "POST /users/register HTTP/1.1" 404 61 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2022:13:26:26 +0000] "POST /users/login HTTP/1.1" 200 431 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2022:13:35:51 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 3532 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2022:13:36:30 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 3532 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2022:13:38:46 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 3532 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [23/Jan/2022:14:07:31 +0000] "GET /payroll/getEmployee HTTP/1.1" 200 3532 "-" "Thunder Client (https://www.thunderclient.io)"
+

@@ -2,7 +2,7 @@
     "UserData1": {
         "firstname": "abhkl",
         "lastname": "kkklll",
-        "email": "subhamD@gmail.com",
+        "email": "subhamDA@gmail.com",
         "password": "1234"
     },
     "UserData2": {
@@ -30,7 +30,7 @@
         "password": ""
     },
     "loginData1": {
-        "email": "subhamD@gmail.com",
+        "email": "subhamDA@gmail.com",
         "password": "1234"
     },
     "loginData2": {
@@ -49,13 +49,87 @@
         "email": "subhamd@gmail.com",
         "password": ""
     },
-    "addEmployeeData1": {
+    "addEmployeeData1":{
         "firstname": "subham",
         "lastname": "das",
         "gender": "male",
-        "department": "finance",
-        "salary": 5587464,
-        "startdate": "2022-01-20",
-        "notes": "testing testing testing"
+        "department": "hr",
+        "salary": 65644,
+        "startdate": "2021-05-22",
+        "notes": "w4tfaw4"
+    },
+    "addEmployeeData2":{
+        "firstname": "",
+        "lastname": "das",
+        "gender": "male",
+        "department": "hr",
+        "salary": 65644,
+        "startdate": "2021-05-22",
+        "notes": "w4tfaw4"
+    },
+    "addEmployeeData3":{
+        "firstname": "subh",
+        "lastname": "",
+        "gender": "male",
+        "department": "hr",
+        "salary": 65644,
+        "startdate": "2021-05-22",
+        "notes": "test"
+    },
+    "addEmployeeData4":{
+        "firstname": "subh",
+        "lastname": "das",
+        "gender": "",
+        "department": "hr",
+        "salary": 65644,
+        "startdate": "2021-05-22",
+        "notes": "test"
+    },
+    "addEmployeeData5":{
+        "firstname": "subh",
+        "lastname": "das",
+        "gender": "male",
+        "department": "",
+        "salary": 65644,
+        "startdate": "2021-05-22",
+        "notes": "test"
+    },
+    "addEmployeeData6":{
+        "firstname": "subh",
+        "lastname": "das",
+        "gender": "male",
+        "department": "hr",
+        "salary": 0,
+        "startdate": "2021-05-22",
+        "notes": "test"
+    },
+    "addEmployeeData7":{
+        "firstname": "subh",
+        "lastname": "das",
+        "gender": "male",
+        "department": "hr",
+        "salary": 545,
+        "startdate": "",
+        "notes": "test"
+    },
+    "addEmployeeData8":{
+        "firstname": "subh",
+        "lastname": "das",
+        "gender": "male",
+        "department": "hr",
+        "salary": 353,
+        "startdate": "2021-05-22",
+        "notes": ""
+    },
+    "getEmployeeData":"",
+
+    "deleteEmployeeData":{
+        "id" : "61e1bf94aafabfdb8c641d37"
+    },
+    
+  
+    "updateEmployeeData1":{
+        "id" : "61eec6710075d467349c579e",
+        "notes" :"running test"
     }
 }

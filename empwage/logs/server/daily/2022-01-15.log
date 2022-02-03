@@ -1,0 +1,138 @@
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:30:53.425Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:30:54.589Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:32:10.566Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:32:11.701Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:32:42.228Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:32:43.390Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:34:03.379Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:34:04.199Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:35:25.142Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:35:26.366Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:36:32.246Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:36:33.004Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:36:58.844Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:36:59.471Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:40:03.986Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:40:04.734Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:41:35.453Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:41:36.224Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:45:10.094Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:45:10.959Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:45:19.714Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:45:20.324Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:45:25.494Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:45:26.093Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:45:59.836Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:46:00.440Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:46:04.967Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:46:05.552Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:47:21.992Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:47:22.794Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:47:33.741Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:47:34.378Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-14T18:49:00.823Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:49:01.589Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:01.833Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:01.858Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:01.879Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:01.901Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:02.201Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:02.217Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed to be empty 
+    url - /users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:02.306Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:03.029Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:03.181Z"}
+error: 
+    status - 500 
+    message - ValidationError: "gender" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:03.333Z"}
+error: 
+    status - 500 
+    message - ValidationError: "department" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:03.459Z"}
+error: 
+    status - 500 
+    message - ValidationError: "salary" must be larger than or equal to 1 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:03.589Z"}
+error: 
+    status - 500 
+    message - ValidationError: "startdate" must be in ISO 8601 date format 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:03.786Z"}
+error: 
+    status - 500 
+    message - ValidationError: "notes" is not allowed to be empty 
+    url - /payroll/addEmployee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T18:49:03.950Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-15T15:35:13.467Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T15:35:15.272Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-15T15:37:20.560Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T15:37:21.603Z"}
+info: Server started at http://localhost:5050 {"timestamp":"2022-01-15T16:10:04.866Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:10:06.673Z"}
